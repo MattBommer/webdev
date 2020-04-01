@@ -3,67 +3,18 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Lato|Sen&display=swap" rel="stylesheet">
     <meta name="homepage" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Lato', 'Sen', sans-serif;
-        }
-
-        .h1_text {
-            text-align: center;
-            position: relative;
-            color: white;
-            top: 25%;
-            left: 50%;
-            transform: translate(-50%, -25%);
-        }
-
-        .background_image {
-            background-image: url('trainstation.jpg');
-            background-color: #cccccc;
-            background-position: center;
-            height: 100%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-
-        .buttons {
-            transform: translate(-0%, +75%);
-            background-color: #008CBA;
-            color: white;
-            border: 2px solid #008CBA;
-            padding: 64px 128px;
-            border-radius: 8px;
-            text-align: center;
-            display: inline-block;
-            font-size: 32px;
-            font-family: fantasy;
-            margin: 4px 2px;
-            transition-duration: 0.4s;
-        }
-
-        .buttons:hover {
-            background-color: whitesmoke;
-            color: black;
-        }
-
-        .oddbuttons {
-            transform: translate(-0%, +215%);
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
 <body>
     <title>Matt's Webpage</title>
-    <div class="background_image">
+    <div class="home_background_image">
         <div class="h1_text">
             <h1 style="font-size: 45px">
                 Matt Bommer
             </h1>
             <h2>Never stop trying</h2>
             <div>
-                <button class="buttons" type="button" onclick="">Skating</button>
+                <a href="skate.html"> <button class="buttons" type="button" onclick="">Skating</button> </a>
                 <button class="buttons oddbuttons" type="button" onclick="">Cooking</button>
                 <button class="buttons" type="button" onclick="">Trading</button>
                 <button class="buttons oddbuttons" type="button" onclick="">Resume</button>
